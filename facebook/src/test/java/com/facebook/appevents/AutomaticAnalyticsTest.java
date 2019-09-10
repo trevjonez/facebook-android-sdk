@@ -33,8 +33,11 @@ import com.facebook.internal.FetchedAppSettingsManager;
 import com.facebook.internal.FetchedAppSettings;
 
 import org.json.JSONObject;
+
+import static android.os.Looper.getMainLooper;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
+import static org.robolectric.Shadows.shadowOf;
 
 import org.junit.Test;
 import org.mockito.Matchers;

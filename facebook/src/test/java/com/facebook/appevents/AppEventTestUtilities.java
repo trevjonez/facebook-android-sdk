@@ -54,7 +54,7 @@ public class AppEventTestUtilities {
         return appEvent;
     }
 
-    public static class BundleMatcher extends ArgumentMatcher<Bundle> {
+    public static class BundleMatcher implements ArgumentMatcher<Bundle> {
 
         private Bundle wanted;
 
@@ -62,11 +62,11 @@ public class AppEventTestUtilities {
             this.wanted = wanted;
         }
 
-        public boolean matches(Object bundle) {
-            if (!(bundle instanceof Bundle)) {
+        public boolean matches(Bundle bundle) {
+            if (bundle == null) {
                 return false;
             }
-            assertEqualContentsWithoutOrder(this.wanted, (Bundle)bundle);
+            assertEqualContentsWithoutOrder(this.wanted, bundle);
             return true;
         }
     }

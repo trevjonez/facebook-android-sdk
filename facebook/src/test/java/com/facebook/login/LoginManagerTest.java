@@ -279,11 +279,10 @@ public class LoginManagerTest extends FacebookPowerMockTestCase {
 
         ArgumentMatcher<Intent> m = new ArgumentMatcher<Intent>() {
             @Override
-            public boolean matches(Object argument) {
-                Intent orig = (Intent)argument;
+            public boolean matches(Intent argument) {
+                Intent orig = argument;
                 Bundle bundle = orig.getBundleExtra(LoginFragment.REQUEST_KEY);
-                LoginClient.Request request =
-                        (LoginClient.Request)bundle.getParcelable(LoginFragment.EXTRA_REQUEST);
+                LoginClient.Request request = bundle.getParcelable(LoginFragment.EXTRA_REQUEST);
                 assertEquals(MOCK_APP_ID, request.getApplicationId());
                 assertEquals(LoginBehavior.NATIVE_ONLY, request.getLoginBehavior());
                 assertEquals(DefaultAudience.EVERYONE, request.getDefaultAudience());
