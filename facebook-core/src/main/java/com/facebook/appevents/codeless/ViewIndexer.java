@@ -26,11 +26,12 @@ import android.graphics.Canvas;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
 import android.util.Base64;
 import android.util.Log;
 import android.view.View;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RestrictTo;
 
 import com.facebook.AccessToken;
 import com.facebook.FacebookSdk;
@@ -40,7 +41,6 @@ import com.facebook.LoggingBehavior;
 import com.facebook.appevents.codeless.internal.Constants;
 import com.facebook.appevents.codeless.internal.UnityReflection;
 import com.facebook.appevents.codeless.internal.ViewHierarchy;
-import com.facebook.appevents.internal.ActivityLifecycleTracker;
 import com.facebook.appevents.internal.AppEventUtility;
 import com.facebook.internal.InternalSettings;
 import com.facebook.internal.Logger;

@@ -23,8 +23,9 @@ package com.facebook.share.internal;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
 import android.util.Log;
+
+import androidx.fragment.app.Fragment;
 
 import com.facebook.FacebookCallback;
 import com.facebook.internal.FacebookDialogBase;
@@ -39,7 +40,7 @@ import java.util.List;
 
 /**
  * com.facebook.share.internal is solely for the use of other packages within the
- * Facebook SDK for Android. Use of any of the classes in this package is
+ * Facebook SDK for Android. Use of any the classes in this package is
  * unsupported, and they may be modified or removed without warning at any time.
  */
 /*

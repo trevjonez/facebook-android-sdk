@@ -34,12 +34,11 @@ import android.os.IInterface;
 import android.os.Looper;
 import android.os.Parcel;
 import android.os.RemoteException;
-import android.support.annotation.Nullable;
-import android.util.Log;
+
+import androidx.annotation.Nullable;
 
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
-import com.facebook.internal.FacebookSignatureValidator;
 
 import java.lang.reflect.Method;
 import java.util.concurrent.BlockingQueue;
@@ -48,7 +47,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the Facebook SDK for
- * Android. Use of any of the classes in this package is unsupported, and they may be modified or
+ * Android. Use of any the classes in this package is unsupported, and they may be modified or
  * removed without warning at any time.
  */
 public class AttributionIdentifiers {

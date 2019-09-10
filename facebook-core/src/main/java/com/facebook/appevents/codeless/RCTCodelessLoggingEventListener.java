@@ -22,9 +22,10 @@ package com.facebook.appevents.codeless;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.view.MotionEvent;
 import android.view.View;
+
+import androidx.annotation.Nullable;
 
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsConstants;

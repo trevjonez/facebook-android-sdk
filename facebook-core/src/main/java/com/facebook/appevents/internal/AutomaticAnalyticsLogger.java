@@ -23,8 +23,9 @@ package com.facebook.appevents.internal;
 import android.app.Application;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.util.Log;
+
+import androidx.annotation.Nullable;
 
 import com.facebook.FacebookSdk;
 import com.facebook.appevents.AppEventsConstants;
@@ -39,15 +40,13 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
 import java.util.Currency;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 /**
  * com.facebook.appevents.internal is solely for the use of other packages within the
- * Facebook SDK for Android. Use of any of the classes in this package is
+ * Facebook SDK for Android. Use of any the classes in this package is
  * unsupported, and they may be modified or removed without warning at any time.
  */
 public class AutomaticAnalyticsLogger {

@@ -31,8 +31,6 @@ import android.os.Environment;
 import android.os.Parcel;
 import android.os.StatFs;
 import android.provider.OpenableColumns;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
 import android.telephony.TelephonyManager;
 import android.text.TextUtils;
 import android.util.DisplayMetrics;
@@ -42,6 +40,9 @@ import android.view.WindowManager;
 import android.view.autofill.AutofillManager;
 import android.webkit.CookieManager;
 import android.webkit.CookieSyncManager;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 
 import com.facebook.AccessToken;
 import com.facebook.FacebookException;
@@ -91,7 +92,7 @@ import java.util.regex.Pattern;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the Facebook SDK for
- * Android. Use of any of the classes in this package is unsupported, and they may be modified or
+ * Android. Use of any the classes in this package is unsupported, and they may be modified or
  * removed without warning at any time.
  */
 public final class Utility {

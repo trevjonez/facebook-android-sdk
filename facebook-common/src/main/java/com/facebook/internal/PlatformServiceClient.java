@@ -30,7 +30,7 @@ import com.facebook.internal.NativeProtocol;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the Facebook SDK for
- * Android. Use of any of the classes in this package is unsupported, and they may be modified or
+ * Android. Use of any the classes in this package is unsupported, and they may be modified or
  * removed without warning at any time.
  */
 abstract public class PlatformServiceClient implements ServiceConnection {

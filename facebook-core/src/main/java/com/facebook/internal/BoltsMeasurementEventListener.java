@@ -25,14 +25,14 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.os.Bundle;
-import android.support.v4.content.LocalBroadcastManager;
 
-import com.facebook.appevents.AppEventsLogger;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
+
 import com.facebook.appevents.InternalAppEventsLogger;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the Facebook SDK for
- * Android. Use of any of the classes in this package is unsupported, and they may be modified or
+ * Android. Use of any classes in this package is unsupported, and they may be modified or
  * removed without warning at any time.
  */
 public class BoltsMeasurementEventListener extends BroadcastReceiver {

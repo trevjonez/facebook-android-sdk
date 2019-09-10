@@ -21,15 +21,17 @@
 package com.facebook.share.internal;
 
 import android.content.Context;
-import android.support.v7.content.res.AppCompatResources;
 import android.util.AttributeSet;
+
+import androidx.appcompat.content.res.AppCompatResources;
+
 import com.facebook.FacebookButtonBase;
 import com.facebook.common.R;
 import com.facebook.internal.AnalyticsEvents;
 
 /**
  * com.facebook.share.internal is solely for the use of other packages within the Facebook SDK for
- * Android. Use of any of the classes in this package is unsupported, and they may be modified or
+ * Android. Use of any the classes in this package is unsupported, and they may be modified or
  * removed without warning at any time.
  */
 /**

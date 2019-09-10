@@ -23,10 +23,11 @@ package com.facebook.appevents;
 import android.app.Application;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
 import android.webkit.WebView;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RestrictTo;
 
 import com.facebook.AccessToken;
 import com.facebook.FacebookSdk;

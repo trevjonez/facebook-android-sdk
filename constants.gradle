@@ -21,8 +21,16 @@
 project.ext {
     gradleVersion = "3.1.2"
     buildTools = "27.0.3"
-    supportLibraryVersion = "27.0.2"
-    compileSdk = 27
+    compileSdk = 28
     minSdk = 15
     targetSdk = 26
+
+    annotation = "androidx.annotation:annotation:1.1.0"
+    appCompat = "androidx.appcompat:appcompat:1.1.0"
+    browser = "androidx.browser:browser:1.0.0"
+    cardView = "androidx.cardview:cardview:1.0.0"
+    core = "androidx.core:core:1.1.0"
+    localBroadcastManager = "androidx.localbroadcastmanager:localbroadcastmanager:1.0.0"
+    material = "com.google.android.material:material:1.0.0"
+    recyclerView= "androidx.recyclerview:recyclerview:1.0.0"
 }

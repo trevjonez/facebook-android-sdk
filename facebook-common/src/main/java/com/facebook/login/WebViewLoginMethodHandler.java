@@ -24,7 +24,8 @@ import android.content.Context;
 import android.os.Bundle;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.v4.app.FragmentActivity;
+
+import androidx.fragment.app.FragmentActivity;
 
 import com.facebook.AccessTokenSource;
 import com.facebook.FacebookException;

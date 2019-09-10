@@ -25,9 +25,10 @@ import android.app.Dialog;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.v4.app.DialogFragment;
-import android.support.v4.app.FragmentActivity;
+
+import androidx.annotation.NonNull;
+import androidx.fragment.app.DialogFragment;
+import androidx.fragment.app.FragmentActivity;
 
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;
@@ -36,7 +37,7 @@ import com.facebook.internal.Utility;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the
- * Facebook SDK for Android. Use of any of the classes in this package is
+ * Facebook SDK for Android. Use of any the classes in this package is
  * unsupported, and they may be modified or removed without warning at any time.
  */
 public class FacebookDialogFragment extends DialogFragment {

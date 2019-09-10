@@ -24,13 +24,14 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewParent;
 import android.view.ViewTreeObserver;
+
+import androidx.annotation.Nullable;
 
 import com.facebook.FacebookException;
 import com.facebook.FacebookSdk;

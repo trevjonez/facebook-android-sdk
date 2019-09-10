@@ -25,9 +25,10 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.util.Log;
 import android.webkit.WebView;
+
+import androidx.annotation.Nullable;
 
 import com.facebook.appevents.AppEventsLogger.FlushBehavior;
 import com.facebook.appevents.AppEventsLogger.ProductAvailability;

@@ -26,8 +26,9 @@ import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.ParcelFileDescriptor;
-import android.support.annotation.Nullable;
 import android.util.Pair;
+
+import androidx.annotation.Nullable;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
@@ -41,7 +42,6 @@ import com.facebook.GraphRequest;
 import com.facebook.GraphRequest.Callback;
 import com.facebook.GraphResponse;
 import com.facebook.HttpMethod;
-import com.facebook.appevents.AppEventsLogger;
 import com.facebook.appevents.InternalAppEventsLogger;
 import com.facebook.internal.AnalyticsEvents;
 import com.facebook.internal.AppCall;
@@ -77,7 +77,7 @@ import java.util.UUID;
 
 /**
  * com.facebook.share.internal is solely for the use of other packages within the
- * Facebook SDK for Android. Use of any of the classes in this package is
+ * Facebook SDK for Android. Use of any the classes in this package is
  * unsupported, and they may be modified or removed without warning at any time.
  */
 public final class ShareInternalUtility {

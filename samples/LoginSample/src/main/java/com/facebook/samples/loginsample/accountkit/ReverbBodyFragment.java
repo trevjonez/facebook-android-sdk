@@ -22,13 +22,15 @@ package com.facebook.samples.loginsample.accountkit;
 
 import android.app.Fragment;
 import android.graphics.drawable.Drawable;
-import android.os.Bundle;
-import android.support.v4.content.ContextCompat;
-import android.support.v4.graphics.drawable.DrawableCompat;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.os.Bundle;
+
+import androidx.core.content.ContextCompat;
+import androidx.core.graphics.drawable.DrawableCompat;
+
 import com.facebook.samples.loginsample.R;
 
 public class ReverbBodyFragment extends Fragment {

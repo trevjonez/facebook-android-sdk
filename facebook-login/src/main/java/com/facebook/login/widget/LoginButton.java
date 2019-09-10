@@ -28,9 +28,10 @@ import android.content.res.TypedArray;
 import android.graphics.Canvas;
 import android.graphics.Paint;
 import android.os.Bundle;
-import android.support.v7.content.res.AppCompatResources;
 import android.util.AttributeSet;
 import android.view.View;
+
+import androidx.appcompat.content.res.AppCompatResources;
 
 import com.facebook.AccessToken;
 import com.facebook.AccessTokenTracker;

@@ -23,8 +23,9 @@ package com.facebook;
 import android.net.Uri;
 import android.os.Parcel;
 import android.os.Parcelable;
-import android.support.annotation.Nullable;
 import android.util.Log;
+
+import androidx.annotation.Nullable;
 
 import com.facebook.AccessToken;
 import com.facebook.internal.ImageRequest;

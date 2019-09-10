@@ -25,8 +25,9 @@ import android.app.Fragment;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Parcel;
-import android.support.annotation.Nullable;
-import android.support.v4.content.LocalBroadcastManager;
+
+import androidx.annotation.Nullable;
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import com.facebook.accountkit.ui.BaseUIManager;
 import com.facebook.accountkit.ui.ButtonType;

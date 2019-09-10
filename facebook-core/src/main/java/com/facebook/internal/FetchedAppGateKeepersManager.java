@@ -26,8 +26,9 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RestrictTo;
 
 import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
@@ -44,7 +45,7 @@ import java.util.concurrent.Executor;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the Facebook SDK for
- * Android. Use of any of the classes in this package is unsupported, and they may be modified or
+ * Android. Use of any the classes in this package is unsupported, and they may be modified or
  * removed without warning at any time.
  */
 @RestrictTo(RestrictTo.Scope.LIBRARY_GROUP)

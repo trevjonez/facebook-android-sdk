@@ -23,8 +23,9 @@ package com.facebook.appevents;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
-import android.support.annotation.Nullable;
 import android.util.Log;
+
+import androidx.annotation.Nullable;
 
 import com.facebook.FacebookSdk;
 import com.facebook.internal.Utility;

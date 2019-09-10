@@ -29,9 +29,10 @@ import android.content.pm.ResolveInfo;
 import android.database.Cursor;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.util.Log;
+
+import androidx.annotation.Nullable;
 
 import com.facebook.FacebookException;
 import com.facebook.FacebookOperationCanceledException;
@@ -51,7 +52,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 
 /**
  * com.facebook.internal is solely for the use of other packages within the Facebook SDK for
- * Android. Use of any of the classes in this package is unsupported, and they may be modified or
+ * Android. Use of any the classes in this package is unsupported, and they may be modified or
  * removed without warning at any time.
  */
 public final class NativeProtocol {

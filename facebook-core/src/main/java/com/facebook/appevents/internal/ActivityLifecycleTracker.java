@@ -23,8 +23,9 @@ package com.facebook.appevents.internal;
 import android.app.Activity;
 import android.app.Application;
 import android.os.Bundle;
-import android.support.annotation.RestrictTo;
 import android.util.Log;
+
+import androidx.annotation.RestrictTo;
 
 import com.facebook.FacebookSdk;
 import com.facebook.LoggingBehavior;

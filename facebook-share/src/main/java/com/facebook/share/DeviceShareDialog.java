@@ -20,8 +20,9 @@
 package com.facebook.share;
 
 import android.app.Activity;
-import android.app.Fragment;
 import android.content.Intent;
+
+import androidx.fragment.app.Fragment;
 
 import com.facebook.FacebookActivity;
 import com.facebook.FacebookCallback;
@@ -65,14 +66,14 @@ public class DeviceShareDialog
      * Constructs a new DeviceShareDialog.
      * @param fragment fragment to use to share the provided content
      */
-    public DeviceShareDialog(final Fragment fragment) {
+    public DeviceShareDialog(final android.app.Fragment fragment) {
         super(new FragmentWrapper(fragment), DEFAULT_REQUEST_CODE);
     }
     /**
      * Constructs a new DeviceShareDialog.
      * @param fragment fragment to use to share the provided content
      */
-    public DeviceShareDialog(final android.support.v4.app.Fragment fragment) {
+    public DeviceShareDialog(final Fragment fragment) {
         super(new FragmentWrapper(fragment), DEFAULT_REQUEST_CODE);
     }
 

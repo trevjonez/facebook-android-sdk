@@ -22,7 +22,8 @@ package com.facebook.share.internal;
 
 import android.os.Bundle;
 
-import android.support.annotation.Nullable;
+import androidx.annotation.Nullable;
+
 import com.facebook.FacebookException;
 import com.facebook.internal.Utility;
 import com.facebook.internal.Validate;
@@ -48,7 +49,7 @@ import java.util.UUID;
 
 /**
  * com.facebook.share.internal is solely for the use of other packages within the
- * Facebook SDK for Android. Use of any of the classes in this package is
+ * Facebook SDK for Android. Use of any the classes in this package is
  * unsupported, and they may be modified or removed without warning at any time.
  */
 public class NativeDialogParameters {

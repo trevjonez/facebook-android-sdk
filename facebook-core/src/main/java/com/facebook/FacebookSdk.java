@@ -28,9 +28,10 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.Signature;
 import android.os.AsyncTask;
-import android.support.annotation.RestrictTo;
 import android.util.Base64;
 import android.util.Log;
+
+import androidx.annotation.RestrictTo;
 
 import com.facebook.appevents.AppEventsLogger;
 import com.facebook.appevents.internal.ActivityLifecycleTracker;

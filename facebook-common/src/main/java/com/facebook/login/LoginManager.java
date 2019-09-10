@@ -28,8 +28,9 @@ import android.content.pm.ResolveInfo;
 import android.net.Uri;
 import android.os.Bundle;
 import android.content.Context;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 
 import com.facebook.AccessToken;
 import com.facebook.CallbackManager;
@@ -356,7 +357,7 @@ public class LoginManager {
 
     /**
      * Logs the user in with the requested read permissions.
-     * @param fragment    The android.support.v4.app.Fragment which is starting the login process.
+     * @param fragment    The androidx.fragment.app.Fragment which is starting the login process.
      * @param permissions The requested permissions.
      */
     public void logInWithReadPermissions(
@@ -411,7 +412,7 @@ public class LoginManager {
 
     /**
      * Reauthorize data access
-     * @param fragment    The android.support.v4.app.Fragment starting the reauthorization process.
+     * @param fragment    The androidx.fragment.app.Fragment starting the reauthorization process.
      */
     public void reauthorizeDataAccess(Fragment fragment) {
         reauthorizeDataAccess(new FragmentWrapper(fragment));
@@ -428,7 +429,7 @@ public class LoginManager {
 
     /**
      * Logs the user in with the requested publish permissions.
-     * @param fragment    The android.support.v4.app.Fragment which is starting the login process.
+     * @param fragment    The androidx.fragment.app.Fragment which is starting the login process.
      * @param permissions The requested permissions.
      */
     public void logInWithPublishPermissions(
@@ -474,7 +475,7 @@ public class LoginManager {
 
     /**
      * Logs the user in with the requested permissions.
-     * @param fragment    The android.support.v4.app.Fragment which is starting the login process.
+     * @param fragment    The androidx.fragment.app.Fragment which is starting the login process.
      * @param permissions The requested permissions.
      */
     public void logIn(Fragment fragment, Collection<String> permissions) {

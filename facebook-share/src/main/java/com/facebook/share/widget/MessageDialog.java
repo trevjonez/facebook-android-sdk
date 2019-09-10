@@ -23,10 +23,10 @@ package com.facebook.share.widget;
 import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v4.app.Fragment;
+
+import androidx.fragment.app.Fragment;
 
 import com.facebook.FacebookCallback;
-import com.facebook.appevents.AppEventsLogger;
 import com.facebook.appevents.InternalAppEventsLogger;
 import com.facebook.internal.AnalyticsEvents;
 import com.facebook.internal.AppCall;
@@ -39,7 +39,6 @@ import com.facebook.share.Sharer;
 import com.facebook.share.internal.LegacyNativeDialogParameters;
 import com.facebook.share.internal.MessageDialogFeature;
 import com.facebook.share.internal.NativeDialogParameters;
-import com.facebook.share.internal.OpenGraphMessageDialogFeature;
 import com.facebook.share.internal.ShareContentValidation;
 import com.facebook.share.internal.ShareInternalUtility;
 import com.facebook.share.model.*;
@@ -89,7 +88,7 @@ public final class MessageDialog
      * Helper to show the provided {@link com.facebook.share.model.ShareContent} using the provided
      * Fragment. No callback will be invoked.
      *
-     * @param fragment android.support.v4.app.Fragment to use to send the provided content
+     * @param fragment androidx.fragment.app.Fragment to use to send the provided content
      * @param shareContent Content to send
      */
     public static void show(
@@ -143,7 +142,7 @@ public final class MessageDialog
 
     /**
      * Constructs a MessageDialog.
-     * @param fragment android.support.v4.app.Fragment to use to send the provided content.
+     * @param fragment androidx.fragment.app.Fragment to use to send the provided content.
      */
     public MessageDialog(Fragment fragment) {
         this(new FragmentWrapper(fragment));

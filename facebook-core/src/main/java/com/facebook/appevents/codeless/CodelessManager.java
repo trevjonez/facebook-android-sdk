@@ -26,8 +26,9 @@ import android.hardware.Sensor;
 import android.hardware.SensorManager;
 import android.os.Build;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.annotation.RestrictTo;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.RestrictTo;
 
 import com.facebook.FacebookSdk;
 import com.facebook.GraphRequest;
@@ -51,8 +52,7 @@ public final class CodelessManager {
     private static final ViewIndexingTrigger viewIndexingTrigger = new ViewIndexingTrigger();
     private static SensorManager sensorManager;
     private static ViewIndexer viewIndexer;
-    @Nullable
-    private static String deviceSessionID = null;
+    @Nullable private static String deviceSessionID = null;
     private static Boolean isAppIndexingEnabled = false;
     private static volatile Boolean isCheckingSession = false;
 

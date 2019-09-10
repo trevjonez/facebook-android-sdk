@@ -22,7 +22,8 @@ package com.facebook.appevents;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.RestrictTo;
+
+import androidx.annotation.RestrictTo;
 
 import com.facebook.AccessToken;
 
@@ -35,7 +36,7 @@ import com.facebook.appevents.AppEventsLogger.FlushBehavior;
 
 /**
  * com.facebook.appevents.InternalAppEventsLogger is solely for the use of other packages within the
- * Facebook SDK for Android. Use of any of the classes in this package is
+ * Facebook SDK for Android. Use of any the classes in this package is
  * unsupported, and they may be modified or removed without warning at any time.
  */
 

@@ -38,12 +38,13 @@ import android.os.Handler;
 import android.os.IBinder;
 import android.os.Message;
 import android.os.RemoteException;
-import android.support.v4.app.Fragment;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.*;
+
+import androidx.fragment.app.Fragment;
 
 import com.android.vending.billing.IInAppBillingService;
 import com.facebook.*;

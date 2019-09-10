@@ -21,7 +21,8 @@
 package com.facebook;
 
 import android.content.Intent;
-import android.support.v4.content.LocalBroadcastManager;
+
+import androidx.localbroadcastmanager.content.LocalBroadcastManager;
 
 import org.junit.After;
 import org.junit.Before;
